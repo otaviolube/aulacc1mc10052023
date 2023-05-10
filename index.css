@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    background-color: azure;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    color: blueviolet;
+}
+
+#tabela{
+    margin-top: 20px;
+}
+
+#tabela, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 20px;
+}
